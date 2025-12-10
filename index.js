@@ -1,5 +1,5 @@
 let automobiles = ["car","truck","motorcycle"];
-let automobilesCopy = `${automobiles}`;
+let automobilesCopy = `The automobiles are: ${automobiles}`;
 automobiles.push("airplane","skateboard");
 automobiles.pop("skateboard");
 automobiles.unshift("bike","helicopter");
