@@ -1,10 +1,10 @@
 let automobiles = ["car","truck","motorcycle"];
-let automobilesCopy = `The automobiles are: ${automobiles}`;
 automobiles.push("airplane","skateboard");
 automobiles.pop("skateboard");
 automobiles.unshift("bike","helicopter");
 automobiles.shift("bike");
 
+let automobilesCopy = `${automobiles}`;
 
 document.getElementById("result").innerHTML = automobiles;
 
