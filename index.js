@@ -1,10 +1,11 @@
 let automobiles = ["car","truck","motorcycle"];
 automobiles.push("airplane","skateboard");
-automobiles.pop("skateboard");
 automobiles.unshift("bike","helicopter");
-automobiles.shift("bike");
 
 let automobilesCopy = `${automobiles}`;
+
+automobiles.pop();
+automobiles.shift();
 
 document.getElementById("result").innerHTML = automobiles;
 
